@@ -5,11 +5,11 @@ class Client {
     private: 
 
         std::string client_name;
-        Date *client_DOB; 
+        Date* client_DOB; 
 
     public: 
 
-        Client(std::string client_name, Date *client_DOB)
+        Client(std::string client_name, Date* client_DOB)
 
         ~Client() // destructor 
         
@@ -20,5 +20,5 @@ class Client {
         void set_client_DOB() {this-> client_DOB = client_DOB;}
 
         void print_client() const
-
+    
 };

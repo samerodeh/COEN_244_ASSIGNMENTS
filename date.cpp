@@ -1,14 +1,19 @@
 #include "date.h"
 
-Date::Date(int month, int day, int year)
-    : month(month), day(day), year(year)
-{
-    // this->month = month;
-    // this->day = day;
-    // this->year = year;
-}
+Date::Date(int month,
+           int day,
+           int year
+        )
 
-Date::~Date() {}
+    : month(month),
+      day(day),
+      year(year)
+    {
+    }
+
+Date::~Date() {
+    std::cout << "object destroyed";
+}
 
 
 void Date::print_date() const {

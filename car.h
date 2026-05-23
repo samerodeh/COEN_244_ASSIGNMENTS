@@ -7,7 +7,7 @@ class Car {
 
         std::string car_model;
         std::string car_color;
-        std::car_serial_num;
+        std::string car_serial_num;
         int car_model_year;
         int car_milage;
         int car_price; 

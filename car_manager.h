@@ -3,13 +3,13 @@ class CarManager {
     private: 
 
         int num_of_cars;
-        Car* inventory[1000]; 
+        Car* inventory[1000];
         SoldCar* sold_cars[200]; 
 
 
     public: 
 
-    CarManager (int num_of_cars, Car* inventory[], SoldCars* sold_cars);
+    CarManager (int num_of_cars, Car* inventory[], SoldCars* sold_cars[]);
     ~CarManager();
 
     int get_num_of_cars ();
@@ -21,10 +21,10 @@ class CarManager {
     SoldCars* get_sold_cars ();
     void set_sold_cars (SoldCars* sold_cars[]);
 
-    void func1 (Car* inventory);
+    void func1 (Car* car);
 
 
-    void func2 ();
+    Car func2 (ClientRequest request);
         
     
     void func3 ();
@@ -34,4 +34,6 @@ class CarManager {
 
 
     void func5 ();
+
+
 };

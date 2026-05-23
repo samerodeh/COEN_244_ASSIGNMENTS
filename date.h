@@ -4,7 +4,7 @@ class Date {
 
     private: 
 
-        int string month;
+        int month;
         int day;
         int year;
 
@@ -16,10 +16,10 @@ class Date {
             int year
         ); 
 
-        ~Date();
+        ~Date() {}
 
         int get_month() {return month;}
-        void set_month(int month) {this->month = month;}
+        void set_month(int month) {this->month = month}
         
         int get_day() {return day;}
         void set_day(int day) {this->day = day;}
