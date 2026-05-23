@@ -1,4 +1,4 @@
-class SoldCars {
+class SoldCar {
 
     private: 
 
